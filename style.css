@@ -1,0 +1,93 @@
+:root {
+  --color-primary: hsl(0, 0%, 100%);
+  --color-background: hsl(275, 100%, 97%);
+  --color-button: hsl(292, 16%, 49%);
+  --font-color: hsl(292, 42%, 14%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--color-background);
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+}
+.cover-img {
+  z-index: -1;
+  position: relative;
+  width: 100%;
+}
+.container {
+  width: 45%;
+  box-shadow: var(--font-color) 2px 1rem 1.5rem;
+  background-color: var(--color-primary);
+  position: relative;
+  margin-top: -10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+}
+
+.main {
+  padding: 3.6rem;
+  position: relative;
+}
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 1.2rem;
+}
+h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.icon {
+  width: 3.6rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 4.8rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+hr {
+  opacity: 0.4;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+#minus_Button,
+#change-Minus-first,
+#change-Minus-second,
+#change-Minus-third {
+  border-radius: 50%;
+  border: none;
+}
